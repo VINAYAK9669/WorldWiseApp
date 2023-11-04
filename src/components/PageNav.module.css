@@ -1,0 +1,69 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--color-brand--2);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+}
+.menu {
+  display: none;
+}
+
+/* RESPONSIVE WEBSITE */
+
+@media (max-width: 725px) {
+  nav {
+    position: relative;
+  }
+  .deactivate > li {
+    background-color: orange;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .menu {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-weight: 900;
+    -webkit-text-stroke: 1px white;
+  }
+  .active {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+  }
+}

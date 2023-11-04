@@ -1,0 +1,136 @@
+{
+  "cities": [
+    {
+      "cityName": "Maval",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-02T06:03:09.495Z",
+      "notes": "Wanted to visit in next month.",
+      "position": {
+        "lat": "18.75482668822537",
+        "lng": "73.40157782116385"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Mangalore",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-02T06:05:26.846Z",
+      "notes": "Wanted to Visit in 2027",
+      "position": {
+        "lat": "12.869096749549758",
+        "lng": "74.84454847835849"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Delhi",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-02T06:06:29.770Z",
+      "notes": "Will visit Delhi Very Soon!",
+      "position": {
+        "lat": "28.613094109243907",
+        "lng": "77.20892860621026"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Bengaluru",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-02T06:07:32.280Z",
+      "notes": "Visited, and the experience was good.",
+      "position": {
+        "lat": "12.97543067928548",
+        "lng": "77.62783404021773"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Sangli",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-02T06:10:04.491Z",
+      "notes": "I am from Here!",
+      "position": {
+        "lat": "16.841641295110104",
+        "lng": "74.67140653048641"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Singapore",
+      "country": "Singapore",
+      "emoji": "🇸🇬",
+      "date": "2023-11-02T06:13:24.616Z",
+      "notes": "Wii visit as soon as Possible.",
+      "position": {
+        "lat": "1.2975394451621476",
+        "lng": "103.87491608509512"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Singapore",
+      "country": "Singapore",
+      "emoji": "🇸🇬",
+      "date": "2023-11-02T06:15:12.343Z",
+      "notes": "Will go here soon",
+      "position": {
+        "lat": "1.2263751964439111",
+        "lng": "103.85246177780922"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Khatauli",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-02T06:16:06.838Z",
+      "notes": "",
+      "position": {
+        "lat": "29.273876438875956",
+        "lng": "77.73637667069448"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Gulf of Khambhat",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-02T06:16:20.551Z",
+      "notes": "",
+      "position": {
+        "lat": "20.814491416994663",
+        "lng": "72.02028405971544"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Nagpur",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-11-04T11:40:47.576Z",
+      "notes": "",
+      "position": {
+        "lat": "21.16904512040848",
+        "lng": "79.11254882812501"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Puebla Tornesa",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-11-04T11:48:32.597Z",
+      "notes": "",
+      "position": {
+        "lat": "40.10748741901244",
+        "lng": "-0.020599365234375003"
+      },
+      "id": 98443208
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+==============How to install React Router DOM==============
+
+Check out the below freecodecamp link: 
+
+https://www.freecodecamp.org/news/how-to-use-react-router-version-6/#:~:text=To%20install%20React%20Router%2C%20all%20you%20have%20to,yarn%20then%20use%20this%20command%3A%20yarn%20add%20react-router-dom%406.
+
+* To install React Router, all you have to do is run 
+>  npm install react-router-dom@6
+
+* open "main.jsx" file and import "BrowserRouter" from "react-router-dom" and then wrap the root component (the App component) in it.
+
+* Go to "App.jsx: import the {Routes and Route} from 'react-router-dom'
+
+* In App.jsx component wrap all the route paths inside the 
+
+            <Routes>
+                    <Route>        
+            <Routes/>
+
+* Imagine that we have 3 component in App.js file and we have to route them, so using <Route/> element we can acheive it as below
+
+            <Routes>
+                 <Route path="/" element={ <ComponentName/>}/>      
+            <Routes/>
+
+Paths-
+
+    path = '/' means default webpage that loads initially
+    path = '*' means if url is not find then this path will open
+
+=================================================================
+
+
+======= How to create a Nav links ========
+
+In HTML we were using <a> element to link the navigation menus but in react router we use <NavLink/> 
+
+   Ex:  <NavLink to="/product">Product</NavLink>
+   When clicking on the Product will take you to the product page
+   without refreshing it.
+
+Note: You can also use <Link/> eleemen to link them, but the use of 
+the <NavLink/> element is that the clicked element will get class name as active.
+
+========== Styling Options in React ==================
+
+1) Inline CSS                            -- SCOPE- JSX element
+2) CSS or SASS file = External file      -- SCOPE- Entire App
+3) CSS modules - one file per component  -- SCOPE- ComponentName
+4) CSS-in-js - External file or component file - -- SCOP-component
+5) Utility-first css - tailwind Css -- SCOPE- JSX element
+
+Alternative to styling with CSS : UI libraries like MUI, Chakra, UI, Matine, etc
+
+=====
+A) How to create a css modules.
+
+i) create a component 
+    Ex: Name of the component = PageNav.jsx
+
+ii) now to create an css module which will only apply to this component then we should use the name of the component following '.' then write 'module' then '.' then css
+
+    Ex- Name of the CSS module  =  PageNav.module.Css
+
+
